@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(196, 218, 250);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(173, 223, 243), rgb(128, 227, 240), rgb(192, 219, 255));
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main {
+    min-width: 50vw;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+    width: 100vw;
+}
+
