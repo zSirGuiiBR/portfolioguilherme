@@ -1,29 +1,60 @@
 body {
-    padding: 0;
+    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: rgb(196, 218, 250);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    background-color: #f4f4f9;
 }
-
 header {
-    background-image: linear-gradient(to bottom, rgb(173, 223, 243), rgb(128, 227, 240), rgb(192, 219, 255));
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
-
+header h1 {
+    margin: 0;
+}
 nav {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
 }
-
-main {
-    min-width: 50vw;
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
 }
-
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 footer {
-    position: fixed;
-    bottom: 0;
+    background-color: #333;
+    color: white;
     text-align: center;
     padding: 10px;
-    width: 100vw;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
-
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.project {
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.project img {
+    width: 100%;
+    height: auto;
+}
