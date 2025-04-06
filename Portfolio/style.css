@@ -43,6 +43,7 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -58,3 +59,24 @@ footer {
     width: 100%;
     height: auto;
 }
+
+.container {
+            border: 1px solid black;
+            width: 60vw;
+            height: 70vh;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            align-content: center;
+        }
+
+.itens {
+            padding: 50px;
+            background-color: antiquewhite;
+            border: 1px solid black;
+            margin: 10px;
+            text-align: center;
+        }
