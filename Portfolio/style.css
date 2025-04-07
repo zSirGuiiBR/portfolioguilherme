@@ -5,7 +5,7 @@ body {
     background-color: #f4f4f9;
 }
 header {
-    background-color: #4CAF50;
+    background-color: #030303;
     color: white;
     text-align: center;
     padding: 20px;
@@ -35,11 +35,11 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer {
-    background-color: #333;
+    background-color: #1d1c1c;
     color: white;
     text-align: center;
     padding: 10px;
-    position: absolute;
+    position: flex;
     width: 100%;
     bottom: 0;
 }
